@@ -1,1 +1,1 @@
-# Google_Assistant_WNR_
+Integrating Wink Node Red and a custom Action on Google using API.AI
