@@ -1,7 +1,8 @@
-<h1>Integrating Wink Node Red and a custom "Action on Google" using API.AI</h1>
-<h2>Say something about api.ai here</h2>
-<p>Follow these instructions</p>
+# Integrating Wink Node Red and a custom "Action on Google" using API.AI
+## Say something about api.ai here
+Follow these instructions
 ![image](https://github.com/scambo00/Google_Assistant_WNR/blob/master/iamges/create%20agent.png)
 ![image](https://github.com/scambo00/Google_Assistant_WNR/blob/master/iamges/import%20agent.jpg)
-<h2>Say something about Node-red here</h2>
-<p>Follow these instructions</p>
+## Say something about Node-red here
+Follow these instructions
+#### Interaction Model
