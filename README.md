@@ -37,6 +37,7 @@ The command line interface will be used to extend your action forever
 * [command.txt](command.txt)
 
 ### 5.3)Edit action.json
+<img src='/images/editAction.png'/>
 ### 5.4)Edit coomand.txt
 ### 5.5)Run command from CMD window
 
