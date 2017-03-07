@@ -30,8 +30,8 @@ Follow these instructions
 ## 5) Extend your Actions preview
 ### 5.1)Download gactions
 ### 5.2)Downaload these two file
-*  [src/AOG/action.json](action.json)
-*  Import updated [winkIntegration.json](winkIntegration.json)
+[action.json](action.json)
+Import updated [winkIntegration.json](winkIntegration.json)
 action.jscon
 command.txt
 ### 5.3)Edit action.json
