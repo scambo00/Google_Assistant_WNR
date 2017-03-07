@@ -28,7 +28,10 @@ Follow these instructions
 ### 4.3)Web Simulator
 ### 4.4)Action Package
 ## 5) Extend your Actions preview
-### 5.1)Download gactions
+The command line interface will be used to extend your action forever
+### 5.1)Download gactions-cli
+* https://developers.google.com/actions/tools/gactions-cli
+
 ### 5.2)Downaload these two file
 * [action.json](action.json)
 * [command.txt](command.txt)
