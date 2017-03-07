@@ -1,23 +1,23 @@
 # Integrating Wink Node Red and a custom "Action on Google" using API.AI
-## API.AI
+## 1)API.AI
 Same something about API.AI
-### Create an account
+### 1.1)Create an account
 Follow these instructions
-### Create Agent
+### 1.2)Create Agent
 Follow these instructions
-### Import Agent
+### 1.3)Import Agent
 Follow these instructions
-#### Restore from zip
+#### 1.3.1)Restore from zip
 Follow these instructions
-### API.AI Webhook
+### 1.4)API.AI Webhook
 Follow these instructions
-## Node-Red
+## 2)Node-Red
 Follow these instructions
-### Create new tab
+### 2.1)Create new tab
 Follow these instructions
-### Import from clipboard
+### 2.2)Import from clipboard
 Follow these instructions
-### Setup Global Defines
+### 2.3)Setup Global Defines
 Follow these instructions
 
 
