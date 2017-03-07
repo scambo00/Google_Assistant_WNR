@@ -1,0 +1,1243 @@
+{
+  "name": "actionPackages/your action package number",
+  "deploymentStatus": {
+    "state": "NEW",
+    "previewEndTime": "2017-02-23T18:29:49.982845Z"
+  },
+  "versionLabel": "API.AI generated package for agent winkNodeRed",
+  "agentInfo": {
+    "languageCode": "en-US",
+    "projectId": "wink-node-red",
+    "invocationNames": [
+      "your invocation name"
+    ],
+    "voiceName": "male_2",
+    "logoUrl": "https://static.api.ai/assets/images/logo.png"
+  },
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "initialTrigger": {
+        "intent": "assistant.intent.action.MAIN",
+        "queryPatterns": [
+          {
+            "queryPattern": "Hello"
+          }
+        ]
+      },
+      "inDialogTriggers": [
+        {
+          "intent": "71b008d5-ae0e-4c07-b8d3-fb494a086202",
+          "queryPatterns": [
+            {
+              "queryPattern": "good night"
+            }
+          ]
+        },
+        {
+          "intent": "8356b837-499f-420f-8ca2-7cb193abeb4c",
+          "queryPatterns": [
+            {
+              "queryPattern": "set thermostat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "set heat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "turn temperature up to  $SchemaOrg_Temperature:temperature"
+            }
+          ]
+        },
+        {
+          "intent": "abce5f7c-b0aa-4970-9c5d-68b9b8504129",
+          "queryPatterns": [
+            {
+              "queryPattern": "Hello"
+            }
+          ]
+        },
+        {
+          "intent": "f8053ba0-3823-4b08-a244-b08a87cd029d",
+          "queryPatterns": [
+            {
+              "queryPattern": "yes"
+            }
+          ]
+        },
+        {
+          "intent": "12401fe0-e666-4192-a5b0-1e4b30b56222",
+          "queryPatterns": [
+            {
+              "queryPattern": "shut  $command:command   $winkName:winkName  lights"
+            },
+            {
+              "queryPattern": "turn the  $winkName:winkName  light  $command:command"
+            },
+            {
+              "queryPattern": "set the  $winkName:winkName  to a brightness of  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$winkName:winkName  level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  to level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  light to  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$command:command   $winkName:winkName"
+            },
+            {
+              "queryPattern": "$winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "set  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "switch  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "turn  $winkName:winkName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "087bb7be-0823-4fea-8209-0cd89442b420",
+          "queryPatterns": [
+            {
+              "queryPattern": "set  $globVarName:globVarName  to  $command:command"
+            },
+            {
+              "queryPattern": "$globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "make  $globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "$command:command   $globVarName:globVarName"
+            },
+            {
+              "queryPattern": "turn  $globVarName:globVarName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "32a3e982-122f-40d0-ae3e-406f1e9d721b",
+          "queryPatterns": [
+            {
+              "queryPattern": "retrieve my devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            }
+          ]
+        },
+        {
+          "intent": "09fe466e-6386-4144-abd5-1d198eb530e3",
+          "queryPatterns": [
+            {
+              "queryPattern": "thank you"
+            },
+            {
+              "queryPattern": "nevermind"
+            },
+            {
+              "queryPattern": "good bye"
+            },
+            {
+              "queryPattern": "no"
+            },
+            {
+              "queryPattern": "that will be all"
+            },
+            {
+              "queryPattern": "cancel"
+            }
+          ]
+        },
+        {
+          "intent": "098cedab-1cf6-4dfa-8c01-31460b6739ad",
+          "queryPatterns": [
+            {
+              "queryPattern": "list devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            },
+            {
+              "queryPattern": "update my devices"
+            }
+          ]
+        },
+        {
+          "intent": "RAW_TEXT",
+          "queryPatterns": [
+            {
+              "queryPattern": "$SchemaOrg_Text:text"
+            }
+          ]
+        }
+      ],
+      "httpExecution": {
+        "url": "https://api.api.ai/api/integrations/google?token\u003d619be68fa17e43a693d0ce7aa9e25f1f\u0026lang\u003den-US"
+      },
+      "signInRequired": false
+    },
+    {
+      "description": "send cmd msg",
+      "initialTrigger": {
+        "intent": "send cmd msg",
+        "queryPatterns": [
+          {
+            "queryPattern": "shut  $command:command   $winkName:winkName  lights"
+          },
+          {
+            "queryPattern": "turn the  $winkName:winkName  light  $command:command"
+          },
+          {
+            "queryPattern": "set the  $winkName:winkName  to a brightness of  $SchemaOrg_Number:level"
+          },
+          {
+            "queryPattern": "$winkName:winkName  level  $SchemaOrg_Number:level"
+          },
+          {
+            "queryPattern": "set   $winkName:winkName  to level  $SchemaOrg_Number:level"
+          },
+          {
+            "queryPattern": "set   $winkName:winkName  light to  $SchemaOrg_Number:level"
+          },
+          {
+            "queryPattern": "$command:command   $winkName:winkName"
+          },
+          {
+            "queryPattern": "$winkName:winkName   $command:command"
+          },
+          {
+            "queryPattern": "set  $winkName:winkName   $command:command"
+          },
+          {
+            "queryPattern": "switch  $winkName:winkName   $command:command"
+          },
+          {
+            "queryPattern": "turn  $winkName:winkName   $command:command"
+          }
+        ]
+      },
+      "inDialogTriggers": [
+        {
+          "intent": "71b008d5-ae0e-4c07-b8d3-fb494a086202",
+          "queryPatterns": [
+            {
+              "queryPattern": "good night"
+            }
+          ]
+        },
+        {
+          "intent": "8356b837-499f-420f-8ca2-7cb193abeb4c",
+          "queryPatterns": [
+            {
+              "queryPattern": "set thermostat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "set heat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "turn temperature up to  $SchemaOrg_Temperature:temperature"
+            }
+          ]
+        },
+        {
+          "intent": "abce5f7c-b0aa-4970-9c5d-68b9b8504129",
+          "queryPatterns": [
+            {
+              "queryPattern": "Hello"
+            }
+          ]
+        },
+        {
+          "intent": "f8053ba0-3823-4b08-a244-b08a87cd029d",
+          "queryPatterns": [
+            {
+              "queryPattern": "yes"
+            }
+          ]
+        },
+        {
+          "intent": "12401fe0-e666-4192-a5b0-1e4b30b56222",
+          "queryPatterns": [
+            {
+              "queryPattern": "shut  $command:command   $winkName:winkName  lights"
+            },
+            {
+              "queryPattern": "turn the  $winkName:winkName  light  $command:command"
+            },
+            {
+              "queryPattern": "set the  $winkName:winkName  to a brightness of  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$winkName:winkName  level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  to level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  light to  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$command:command   $winkName:winkName"
+            },
+            {
+              "queryPattern": "$winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "set  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "switch  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "turn  $winkName:winkName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "087bb7be-0823-4fea-8209-0cd89442b420",
+          "queryPatterns": [
+            {
+              "queryPattern": "set  $globVarName:globVarName  to  $command:command"
+            },
+            {
+              "queryPattern": "$globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "make  $globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "$command:command   $globVarName:globVarName"
+            },
+            {
+              "queryPattern": "turn  $globVarName:globVarName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "32a3e982-122f-40d0-ae3e-406f1e9d721b",
+          "queryPatterns": [
+            {
+              "queryPattern": "retrieve my devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            }
+          ]
+        },
+        {
+          "intent": "09fe466e-6386-4144-abd5-1d198eb530e3",
+          "queryPatterns": [
+            {
+              "queryPattern": "thank you"
+            },
+            {
+              "queryPattern": "nevermind"
+            },
+            {
+              "queryPattern": "good bye"
+            },
+            {
+              "queryPattern": "no"
+            },
+            {
+              "queryPattern": "that will be all"
+            },
+            {
+              "queryPattern": "cancel"
+            }
+          ]
+        },
+        {
+          "intent": "098cedab-1cf6-4dfa-8c01-31460b6739ad",
+          "queryPatterns": [
+            {
+              "queryPattern": "list devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            },
+            {
+              "queryPattern": "update my devices"
+            }
+          ]
+        },
+        {
+          "intent": "RAW_TEXT",
+          "queryPatterns": [
+            {
+              "queryPattern": "$SchemaOrg_Text:text"
+            }
+          ]
+        }
+      ],
+      "httpExecution": {
+        "url": "https://api.api.ai/api/integrations/google?token\u003d619be68fa17e43a693d0ce7aa9e25f1f\u0026lang\u003den-US"
+      },
+      "signInRequired": false
+    },
+    {
+      "description": "send global var update",
+      "initialTrigger": {
+        "intent": "send global var update",
+        "queryPatterns": [
+          {
+            "queryPattern": "set  $globVarName:globVarName  to  $command:command"
+          },
+          {
+            "queryPattern": "$globVarName:globVarName   $command:command"
+          },
+          {
+            "queryPattern": "make  $globVarName:globVarName   $command:command"
+          },
+          {
+            "queryPattern": "$command:command   $globVarName:globVarName"
+          },
+          {
+            "queryPattern": "turn  $globVarName:globVarName   $command:command"
+          }
+        ]
+      },
+      "inDialogTriggers": [
+        {
+          "intent": "71b008d5-ae0e-4c07-b8d3-fb494a086202",
+          "queryPatterns": [
+            {
+              "queryPattern": "good night"
+            }
+          ]
+        },
+        {
+          "intent": "8356b837-499f-420f-8ca2-7cb193abeb4c",
+          "queryPatterns": [
+            {
+              "queryPattern": "set thermostat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "set heat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "turn temperature up to  $SchemaOrg_Temperature:temperature"
+            }
+          ]
+        },
+        {
+          "intent": "abce5f7c-b0aa-4970-9c5d-68b9b8504129",
+          "queryPatterns": [
+            {
+              "queryPattern": "Hello"
+            }
+          ]
+        },
+        {
+          "intent": "f8053ba0-3823-4b08-a244-b08a87cd029d",
+          "queryPatterns": [
+            {
+              "queryPattern": "yes"
+            }
+          ]
+        },
+        {
+          "intent": "12401fe0-e666-4192-a5b0-1e4b30b56222",
+          "queryPatterns": [
+            {
+              "queryPattern": "shut  $command:command   $winkName:winkName  lights"
+            },
+            {
+              "queryPattern": "turn the  $winkName:winkName  light  $command:command"
+            },
+            {
+              "queryPattern": "set the  $winkName:winkName  to a brightness of  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$winkName:winkName  level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  to level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  light to  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$command:command   $winkName:winkName"
+            },
+            {
+              "queryPattern": "$winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "set  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "switch  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "turn  $winkName:winkName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "087bb7be-0823-4fea-8209-0cd89442b420",
+          "queryPatterns": [
+            {
+              "queryPattern": "set  $globVarName:globVarName  to  $command:command"
+            },
+            {
+              "queryPattern": "$globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "make  $globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "$command:command   $globVarName:globVarName"
+            },
+            {
+              "queryPattern": "turn  $globVarName:globVarName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "32a3e982-122f-40d0-ae3e-406f1e9d721b",
+          "queryPatterns": [
+            {
+              "queryPattern": "retrieve my devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            }
+          ]
+        },
+        {
+          "intent": "09fe466e-6386-4144-abd5-1d198eb530e3",
+          "queryPatterns": [
+            {
+              "queryPattern": "thank you"
+            },
+            {
+              "queryPattern": "nevermind"
+            },
+            {
+              "queryPattern": "good bye"
+            },
+            {
+              "queryPattern": "no"
+            },
+            {
+              "queryPattern": "that will be all"
+            },
+            {
+              "queryPattern": "cancel"
+            }
+          ]
+        },
+        {
+          "intent": "098cedab-1cf6-4dfa-8c01-31460b6739ad",
+          "queryPatterns": [
+            {
+              "queryPattern": "list devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            },
+            {
+              "queryPattern": "update my devices"
+            }
+          ]
+        },
+        {
+          "intent": "RAW_TEXT",
+          "queryPatterns": [
+            {
+              "queryPattern": "$SchemaOrg_Text:text"
+            }
+          ]
+        }
+      ],
+      "httpExecution": {
+        "url": "https://api.api.ai/api/integrations/google?token\u003d619be68fa17e43a693d0ce7aa9e25f1f\u0026lang\u003den-US"
+      },
+      "signInRequired": false
+    },
+    {
+      "description": "getWinkDevices",
+      "initialTrigger": {
+        "intent": "getWinkDevices",
+        "queryPatterns": [
+          {
+            "queryPattern": "retrieve my devices"
+          },
+          {
+            "queryPattern": "get my devices"
+          }
+        ]
+      },
+      "inDialogTriggers": [
+        {
+          "intent": "71b008d5-ae0e-4c07-b8d3-fb494a086202",
+          "queryPatterns": [
+            {
+              "queryPattern": "good night"
+            }
+          ]
+        },
+        {
+          "intent": "8356b837-499f-420f-8ca2-7cb193abeb4c",
+          "queryPatterns": [
+            {
+              "queryPattern": "set thermostat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "set heat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "turn temperature up to  $SchemaOrg_Temperature:temperature"
+            }
+          ]
+        },
+        {
+          "intent": "abce5f7c-b0aa-4970-9c5d-68b9b8504129",
+          "queryPatterns": [
+            {
+              "queryPattern": "Hello"
+            }
+          ]
+        },
+        {
+          "intent": "f8053ba0-3823-4b08-a244-b08a87cd029d",
+          "queryPatterns": [
+            {
+              "queryPattern": "yes"
+            }
+          ]
+        },
+        {
+          "intent": "12401fe0-e666-4192-a5b0-1e4b30b56222",
+          "queryPatterns": [
+            {
+              "queryPattern": "shut  $command:command   $winkName:winkName  lights"
+            },
+            {
+              "queryPattern": "turn the  $winkName:winkName  light  $command:command"
+            },
+            {
+              "queryPattern": "set the  $winkName:winkName  to a brightness of  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$winkName:winkName  level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  to level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  light to  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$command:command   $winkName:winkName"
+            },
+            {
+              "queryPattern": "$winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "set  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "switch  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "turn  $winkName:winkName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "087bb7be-0823-4fea-8209-0cd89442b420",
+          "queryPatterns": [
+            {
+              "queryPattern": "set  $globVarName:globVarName  to  $command:command"
+            },
+            {
+              "queryPattern": "$globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "make  $globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "$command:command   $globVarName:globVarName"
+            },
+            {
+              "queryPattern": "turn  $globVarName:globVarName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "32a3e982-122f-40d0-ae3e-406f1e9d721b",
+          "queryPatterns": [
+            {
+              "queryPattern": "retrieve my devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            }
+          ]
+        },
+        {
+          "intent": "09fe466e-6386-4144-abd5-1d198eb530e3",
+          "queryPatterns": [
+            {
+              "queryPattern": "thank you"
+            },
+            {
+              "queryPattern": "nevermind"
+            },
+            {
+              "queryPattern": "good bye"
+            },
+            {
+              "queryPattern": "no"
+            },
+            {
+              "queryPattern": "that will be all"
+            },
+            {
+              "queryPattern": "cancel"
+            }
+          ]
+        },
+        {
+          "intent": "098cedab-1cf6-4dfa-8c01-31460b6739ad",
+          "queryPatterns": [
+            {
+              "queryPattern": "list devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            },
+            {
+              "queryPattern": "update my devices"
+            }
+          ]
+        },
+        {
+          "intent": "RAW_TEXT",
+          "queryPatterns": [
+            {
+              "queryPattern": "$SchemaOrg_Text:text"
+            }
+          ]
+        }
+      ],
+      "httpExecution": {
+        "url": "https://api.api.ai/api/integrations/google?token\u003d619be68fa17e43a693d0ce7aa9e25f1f\u0026lang\u003den-US"
+      },
+      "signInRequired": false
+    },
+    {
+      "description": "cancel",
+      "initialTrigger": {
+        "intent": "cancel",
+        "queryPatterns": [
+          {
+            "queryPattern": "thank you"
+          },
+          {
+            "queryPattern": "nevermind"
+          },
+          {
+            "queryPattern": "good bye"
+          },
+          {
+            "queryPattern": "no"
+          },
+          {
+            "queryPattern": "that will be all"
+          },
+          {
+            "queryPattern": "cancel"
+          }
+        ]
+      },
+      "inDialogTriggers": [
+        {
+          "intent": "71b008d5-ae0e-4c07-b8d3-fb494a086202",
+          "queryPatterns": [
+            {
+              "queryPattern": "good night"
+            }
+          ]
+        },
+        {
+          "intent": "8356b837-499f-420f-8ca2-7cb193abeb4c",
+          "queryPatterns": [
+            {
+              "queryPattern": "set thermostat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "set heat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "turn temperature up to  $SchemaOrg_Temperature:temperature"
+            }
+          ]
+        },
+        {
+          "intent": "abce5f7c-b0aa-4970-9c5d-68b9b8504129",
+          "queryPatterns": [
+            {
+              "queryPattern": "Hello"
+            }
+          ]
+        },
+        {
+          "intent": "f8053ba0-3823-4b08-a244-b08a87cd029d",
+          "queryPatterns": [
+            {
+              "queryPattern": "yes"
+            }
+          ]
+        },
+        {
+          "intent": "12401fe0-e666-4192-a5b0-1e4b30b56222",
+          "queryPatterns": [
+            {
+              "queryPattern": "shut  $command:command   $winkName:winkName  lights"
+            },
+            {
+              "queryPattern": "turn the  $winkName:winkName  light  $command:command"
+            },
+            {
+              "queryPattern": "set the  $winkName:winkName  to a brightness of  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$winkName:winkName  level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  to level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  light to  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$command:command   $winkName:winkName"
+            },
+            {
+              "queryPattern": "$winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "set  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "switch  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "turn  $winkName:winkName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "087bb7be-0823-4fea-8209-0cd89442b420",
+          "queryPatterns": [
+            {
+              "queryPattern": "set  $globVarName:globVarName  to  $command:command"
+            },
+            {
+              "queryPattern": "$globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "make  $globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "$command:command   $globVarName:globVarName"
+            },
+            {
+              "queryPattern": "turn  $globVarName:globVarName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "32a3e982-122f-40d0-ae3e-406f1e9d721b",
+          "queryPatterns": [
+            {
+              "queryPattern": "retrieve my devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            }
+          ]
+        },
+        {
+          "intent": "09fe466e-6386-4144-abd5-1d198eb530e3",
+          "queryPatterns": [
+            {
+              "queryPattern": "thank you"
+            },
+            {
+              "queryPattern": "nevermind"
+            },
+            {
+              "queryPattern": "good bye"
+            },
+            {
+              "queryPattern": "no"
+            },
+            {
+              "queryPattern": "that will be all"
+            },
+            {
+              "queryPattern": "cancel"
+            }
+          ]
+        },
+        {
+          "intent": "098cedab-1cf6-4dfa-8c01-31460b6739ad",
+          "queryPatterns": [
+            {
+              "queryPattern": "list devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            },
+            {
+              "queryPattern": "update my devices"
+            }
+          ]
+        },
+        {
+          "intent": "RAW_TEXT",
+          "queryPatterns": [
+            {
+              "queryPattern": "$SchemaOrg_Text:text"
+            }
+          ]
+        }
+      ],
+      "httpExecution": {
+        "url": "https://api.api.ai/api/integrations/google?token\u003d619be68fa17e43a693d0ce7aa9e25f1f\u0026lang\u003den-US"
+      },
+      "signInRequired": false
+    },
+    {
+      "description": "update my devices",
+      "initialTrigger": {
+        "intent": "update my devices",
+        "queryPatterns": [
+          {
+            "queryPattern": "list devices"
+          },
+          {
+            "queryPattern": "get my devices"
+          },
+          {
+            "queryPattern": "update my devices"
+          }
+        ]
+      },
+      "inDialogTriggers": [
+        {
+          "intent": "71b008d5-ae0e-4c07-b8d3-fb494a086202",
+          "queryPatterns": [
+            {
+              "queryPattern": "good night"
+            }
+          ]
+        },
+        {
+          "intent": "8356b837-499f-420f-8ca2-7cb193abeb4c",
+          "queryPatterns": [
+            {
+              "queryPattern": "set thermostat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "set heat to  $SchemaOrg_Temperature:temperature"
+            },
+            {
+              "queryPattern": "turn temperature up to  $SchemaOrg_Temperature:temperature"
+            }
+          ]
+        },
+        {
+          "intent": "abce5f7c-b0aa-4970-9c5d-68b9b8504129",
+          "queryPatterns": [
+            {
+              "queryPattern": "Hello"
+            }
+          ]
+        },
+        {
+          "intent": "f8053ba0-3823-4b08-a244-b08a87cd029d",
+          "queryPatterns": [
+            {
+              "queryPattern": "yes"
+            }
+          ]
+        },
+        {
+          "intent": "12401fe0-e666-4192-a5b0-1e4b30b56222",
+          "queryPatterns": [
+            {
+              "queryPattern": "shut  $command:command   $winkName:winkName  lights"
+            },
+            {
+              "queryPattern": "turn the  $winkName:winkName  light  $command:command"
+            },
+            {
+              "queryPattern": "set the  $winkName:winkName  to a brightness of  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$winkName:winkName  level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  to level  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "set   $winkName:winkName  light to  $SchemaOrg_Number:level"
+            },
+            {
+              "queryPattern": "$command:command   $winkName:winkName"
+            },
+            {
+              "queryPattern": "$winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "set  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "switch  $winkName:winkName   $command:command"
+            },
+            {
+              "queryPattern": "turn  $winkName:winkName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "087bb7be-0823-4fea-8209-0cd89442b420",
+          "queryPatterns": [
+            {
+              "queryPattern": "set  $globVarName:globVarName  to  $command:command"
+            },
+            {
+              "queryPattern": "$globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "make  $globVarName:globVarName   $command:command"
+            },
+            {
+              "queryPattern": "$command:command   $globVarName:globVarName"
+            },
+            {
+              "queryPattern": "turn  $globVarName:globVarName   $command:command"
+            }
+          ]
+        },
+        {
+          "intent": "32a3e982-122f-40d0-ae3e-406f1e9d721b",
+          "queryPatterns": [
+            {
+              "queryPattern": "retrieve my devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            }
+          ]
+        },
+        {
+          "intent": "09fe466e-6386-4144-abd5-1d198eb530e3",
+          "queryPatterns": [
+            {
+              "queryPattern": "thank you"
+            },
+            {
+              "queryPattern": "nevermind"
+            },
+            {
+              "queryPattern": "good bye"
+            },
+            {
+              "queryPattern": "no"
+            },
+            {
+              "queryPattern": "that will be all"
+            },
+            {
+              "queryPattern": "cancel"
+            }
+          ]
+        },
+        {
+          "intent": "098cedab-1cf6-4dfa-8c01-31460b6739ad",
+          "queryPatterns": [
+            {
+              "queryPattern": "list devices"
+            },
+            {
+              "queryPattern": "get my devices"
+            },
+            {
+              "queryPattern": "update my devices"
+            }
+          ]
+        },
+        {
+          "intent": "RAW_TEXT",
+          "queryPatterns": [
+            {
+              "queryPattern": "$SchemaOrg_Text:text"
+            }
+          ]
+        }
+      ],
+      "httpExecution": {
+        "url": "https://api.api.ai/api/integrations/google?token\u003d619be68fa17e43a693d0ce7aa9e25f1f\u0026lang\u003den-US"
+      },
+      "signInRequired": false
+    }
+  ],
+  "customTypes": [
+    {
+      "name": "$command",
+      "items": [
+        {
+          "key": "on",
+          "synonyms": [
+            "on",
+            "enable",
+            "turn on",
+            "power on",
+            "switch on",
+            "open",
+            "enabled"
+          ]
+        },
+        {
+          "key": "off",
+          "synonyms": [
+            "off",
+            "disable",
+            "turn off",
+            "power off",
+            "switch off",
+            "close",
+            "disabled"
+          ]
+        }
+      ],
+      "isDynamicDefined": true
+    },
+    {
+      "name": "$winkName",
+      "items": [
+        {
+          "key": "lights",
+          "synonyms": [
+            "lights"
+          ]
+        },
+        {
+          "key": "dimmer plug 1",
+          "synonyms": [
+            "dimmer plug 1",
+            "dimmer",
+            "plug"
+          ]
+        },
+        {
+          "key": "driveway",
+          "synonyms": [
+            "driveway"
+          ]
+        },
+        {
+          "key": "porch",
+          "synonyms": [
+            "porch"
+          ]
+        },
+        {
+          "key": "bedroom",
+          "synonyms": [
+            "bedroom"
+          ]
+        },
+        {
+          "key": "garden light 2",
+          "synonyms": [
+            "garden light 2",
+            "garden 2"
+          ]
+        },
+        {
+          "key": "garden light 1",
+          "synonyms": [
+            "garden light 1",
+            "garden 1"
+          ]
+        },
+        {
+          "key": "back porch switch",
+          "synonyms": [
+            "back porch switch",
+            "back porch",
+            "deck",
+            "back deck"
+          ]
+        },
+        {
+          "key": "backyard switch",
+          "synonyms": [
+            "backyard switch",
+            "backyard"
+          ]
+        },
+        {
+          "key": "basement socket",
+          "synonyms": [
+            "basement socket",
+            "basement",
+            "shed"
+          ]
+        },
+        {
+          "key": "Outside",
+          "synonyms": [
+            "Outside"
+          ]
+        },
+        {
+          "key": "garden_lights",
+          "synonyms": [
+            "garden_lights",
+            "garden lights"
+          ]
+        }
+      ],
+      "isDynamicDefined": true
+    },
+    {
+      "name": "$globVarName",
+      "items": [
+        {
+          "key": "VacationMode",
+          "synonyms": [
+            "vacation mode",
+            "Vacation",
+            "vacation"
+          ]
+        },
+        {
+          "key": "Schedules",
+          "synonyms": [
+            "Schedules",
+            "schedules",
+            "schedule",
+            "scheduling"
+          ]
+        }
+      ],
+      "isDynamicDefined": true
+    }
+  ]
+}
