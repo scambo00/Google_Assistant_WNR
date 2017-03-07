@@ -30,8 +30,9 @@ Follow these instructions
 ## 5) Extend your Actions preview
 ### 5.1)Download gactions
 ### 5.2)Downaload these two file
-[action.json](action.json)
-[command.txt](command.txt)
+* [action.json](action.json)
+* [command.txt](command.txt)
+
 ### 5.3)Edit action.json
 ### 5.4)Edit coomand.txt
 ### 5.5)Run command from CMD window
