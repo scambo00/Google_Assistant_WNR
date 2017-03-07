@@ -39,7 +39,9 @@ The command line interface will be used to extend your action forever
 ### 5.3)Edit action.json
 <img src='/images/editAction.png'/>
 ### 5.4)Edit coomand.txt
+<img src='/images/editCommand.png'/>
 ### 5.5)Run command from CMD window
+Place the two files and the gactions.exe file into the same directory and from a cmd window execute the command.
 
 
 
