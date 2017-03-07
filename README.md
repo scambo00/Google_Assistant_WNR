@@ -19,5 +19,22 @@ Follow these instructions
 Follow these instructions
 ### 2.3)Setup Global Defines
 Follow these instructions
+## 3)Test Integration API.AI=>Node-Red=>API.AI
+Follow these instructions
+## 4)Enable Actions on Google
+Follow these instructions
+### 4.1)Integration
+### 4.2)Actions on Google
+### 4.3)Web Simulator
+### 4.4)Action Package
+## 5) Extend your Actions preview
+### 5.1)Download gactions
+### 5.2)Downaload these two file
+* action.jscon
+* command.txt
+### 5.3)Edit action.json
+### 5.4)Edit coomand.txt
+### 5.5)Run command from CMD window
+
 
 
