@@ -1,8 +1,8 @@
 # Integrating Wink Node Red and a custom "Action on Google" using API.AI
 This will detail step by step how to build an Assistant Action and how to keep it private (ie. you can use the Action in your own Google Home device, but it will not be publicly available).
-The idea is to create an flow for wink node-red (webhook) that is triggered by an Action built with API.AI.
+The idea is to create an flow for wink node-red (webhook) that is triggered by an Action built with API.AI.  
 ## 1)API.AI
-Same something about API.AI
+API.AI is a development tool for conversational end points. It allows to create a natural language interactions action for Google Home.
 ### 1.1)Create an account
 You must create the account with the same Google email that you use to control your Google Home.
 * Create an account on [API.AI](https://api.ai/):
