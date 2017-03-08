@@ -5,7 +5,7 @@ The idea is to create an flow for wink node-red (webhook) that is triggered by a
 Same something about API.AI
 ### 1.1)Create an account
 You must create the account with the same Google email that you use to control your Google Home.
-* Create an account on API.AI;
+* Create an account on [https://bluemix.net](https://api.ai/):
 
 ### 1.2)Create Agent
 Follow these instructions
