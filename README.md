@@ -1,5 +1,5 @@
 # Integrating Wink Node Red and a custom "Action on Google" using API.AI
-This will detail step by step how to build an Assistant Action and how to keep it private (ie. you can use the Action in your own Google Home device, but it will not be publicly available).
+This will detail step by step how to import a prebuilt "Assistant Action" and how to keep it private (ie. you can use the Action in your own Google Home device, but it will not be publicly available).
 The idea is to create an flow for wink node-red (webhook) that is triggered by an Action built with API.AI.  
 ## 1)API.AI
 API.AI is a development tool for conversational end points. It allows to create a natural language interactions action for Google Home.
@@ -38,13 +38,13 @@ Download the following file which is a prepopulated Agent for the wink node-red 
 <img src='/images/fulfillment.png'/>
 
 ## 2)Node-Red
-Follow these instructions
-### 2.1)Create new tab
-Follow these instructions
-### 2.2)Import from clipboard
-Follow these instructions
-### 2.3)Setup Global Defines
-Follow these instructions
+The behavior of the Assistant when triggered by an Intent.  For example, what should the Assistant do when you ask “Turn On the Bedroom light”. API.AI recognize the words ‘On’(@command), and ‘Bedroom’(@winkName) but we need an application that process those words,  carry out the command and give us a responce. This is called a webhook. 
+
+* Create new tab  - give it a meaningful name (Google Home Integration)
+* Import from clipboard - [googleHomeFlow.json](googleHomeFlow.json)
+* Set Global Defines - context.global.googleHomeKey="your developer access token";
+* Deploy flow
+
 ## 3)Test Integration API.AI=>Node-Red=>API.AI
 Follow these instructions
 ## 4)Enable Actions on Google
@@ -59,7 +59,7 @@ The command line interface will be used to extend your action forever
 * https://developers.google.com/actions/tools/gactions-cli
 
 ### 5.2)Downaload these two file
-* [action.json](action.json)
+* 
 * [command.txt](command.txt)
 
 ### 5.3)Edit action.json
