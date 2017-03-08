@@ -32,6 +32,7 @@ Download the following file which is a prepopulated Agent for the wink node-red 
 * Save the Fulfillment.
 * In any relevant Intent, enable the Fulfillment for the response: open ‘Intents’ window, open the intent that you want to connect, scroll down to ‘Fulfillment’ section, check “Use webhook”.
 * Make sure all domains in the ‘Domains’ window are turned off.
+<img src='/images/fulfillment.png'/>
 
 ## 2)Node-Red
 Follow these instructions
