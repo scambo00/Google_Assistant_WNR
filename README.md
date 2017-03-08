@@ -28,7 +28,8 @@ Download the following file which is a prepopulated Agent for the wink node-red 
 
 ### 1.5)Connect your API.AI action to your webhook
 * Open ‘Fulfillment’ window on the right panel.
-* Copy the URL of your application ‘https://your.mybluemix.net/red/’ to the URL field in API.AI.
+* Copy the URL of your application ‘https://your.mybluemix.net/red/googleActions’ to the URL field in API.AI.
+* Set to "ENABLED"
 * Save the Fulfillment.
 * In any relevant Intent, enable the Fulfillment for the response: open ‘Intents’ window, open the intent that you want to connect, scroll down to ‘Fulfillment’ section, check “Use webhook”.
 * Make sure all domains in the ‘Domains’ window are turned off.
