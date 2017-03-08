@@ -57,7 +57,7 @@ The command line interface will be used to extend your action forever
 <img src='/images/editCommand.png'/>
 ### 5.5)Run command from CMD window
 Place the two files and the gactions.exe file into the same directory and from a cmd window and then execute the command.
-This command will send the Action (‘action.json’ file, same as the the API.AI project) to your Google Home and will run it as a preview for 999999999 minutes (about 2000 years).
+This command will send the Action (‘action.json’ file, same as the the API.AI project) to your Google Home and will run it as a preview for 9999999 minutes (about 20 years).
 
 
 
