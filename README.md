@@ -26,6 +26,13 @@ Download the following file which is a prepopulated Agent for the wink node-red 
 )The API keys we will need are further down on this agent page. Scroll down and you will find the “API keys” section. Copy and paste the “Developer access token” somewhere safe. This will be need to make queries to the Wink Node Red (context.global.googleHomeKey):
 <img src='/images/agentAPIKeys.png'/>
 
+### 1.5)Connect your API.AI action to your webhook
+* Open ‘Fulfillment’ window on the right panel.
+* Copy the URL of your application ‘https://your.mybluemix.net/red/’ to the URL field in API.AI.
+* Save the Fulfillment.
+* In any relevant Intent, enable the Fulfillment for the response: open ‘Intents’ window, open the intent that you want to connect, scroll down to ‘Fulfillment’ section, check “Use webhook”.
+* Make sure all domains in the ‘Domains’ window are turned off.
+
 ## 2)Node-Red
 Follow these instructions
 ### 2.1)Create new tab
