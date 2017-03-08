@@ -8,7 +8,8 @@ You must create the account with the same Google email that you use to control y
 * Create an account on [API.AI](https://api.ai/):
 
 ### 1.2)Create Agent
-Follow these instructions
+Once we have signed up, we will be taken straight to the Api.ai interface where we can create our virtual AI assistant. Each assistant we create and teach specific skills to is called an “agent” in Api.ai. So, to begin, we create our first agent by clicking the “Create Agent” button on the top left hand side:
+
 ### 1.3)Import Agent
 Follow these instructions
 #### 1.3.1)Restore from zip
