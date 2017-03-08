@@ -21,8 +21,7 @@ When you have input your agent’s settings, choose “Save” next to the agent
 Download the following file which is a prepopulated Agent for the wink node-red interface.  This file will be imported as described.
 * [winkNodeRed_0_1.zip](winkNodeRed_0_1.zip)
 <img src='/images/importAgent.png'/>
-#### 1.3.1)Restore from zip
-Follow these instructions
+
 ### 1.4)API.AI Webhook
 Follow these instructions
 ## 2)Node-Red
