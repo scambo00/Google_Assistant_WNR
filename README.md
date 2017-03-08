@@ -22,8 +22,10 @@ Download the following file which is a prepopulated Agent for the wink node-red 
 * [winkNodeRed_0_1.zip](winkNodeRed_0_1.zip)
 <img src='/images/importAgent.png'/>
 
-### 1.4)API.AI Webhook
-Follow these instructions
+### 1.4)Finding your Api.ai API keys
+)The API keys we will need are further down on this agent page. Scroll down and you will find the “API keys” section. Copy and paste the “Developer access token” somewhere safe. This will be need to make queries to the Wink Node Red (context.global.googleHomeKey):
+<img src='/images/agentAPIKeys.png'/>
+
 ## 2)Node-Red
 Follow these instructions
 ### 2.1)Create new tab
