@@ -19,6 +19,7 @@ When you have input your agent’s settings, choose “Save” next to the agent
 
 ### 1.3)Import Agent
 Follow these instructions
+<img src='/images/importAgent.png'/>
 #### 1.3.1)Restore from zip
 Follow these instructions
 ### 1.4)API.AI Webhook
