@@ -10,6 +10,13 @@ You must create the account with the same Google email that you use to control y
 ### 1.2)Create Agent
 Once we have signed up, we will be taken straight to the Api.ai interface where we can create our virtual AI assistant. Each assistant we create and teach specific skills to is called an “agent” in Api.ai. So, to begin, we create our first agent by clicking the “Create Agent” button on the top left hand side:
 <img src='/images/createAgent2.png'/>
+On the next screen, we enter in our agent’s details, including:
+*Name: This is just for your own reference to differentiate agents in the api.ai interface. You could call the agent anything you would like, either a person’s name (I chose Barry) or a name that represents the tasks they are helping out with (e.g. light-controller).
+*Description: A human readable description so you can remember what the agent’s responsible for. This is optional and might not be needed if your agent’s name is self-explanatory.
+*Language: The language which the agent works in. This cannot be changed once you’ve chosen it — so choose wisely! For this tutorial, we will be choosing English as English has access to the most Api.ai domains. You can see which domains are available for each language in the Languages table in the Api.ai docs.
+
+When you have input your agent’s settings, choose “Save” next to the agent’s name to save everything:
+
 ### 1.3)Import Agent
 Follow these instructions
 #### 1.3.1)Restore from zip
