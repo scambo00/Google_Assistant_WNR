@@ -60,6 +60,7 @@ The agent responds back with the number of wink devices WNR detected.
 Clicking on the @winkName entity should display all of your wink devices.  The left column is the winkName and the right is synonyms that you can add to.
 <img src='/images/winkNameEntity.jpg'/>
 
+Again Details of the Intents and Enities will be added at sometime in the fucture that I can find the time to write it up.  I would suggest reading [Get started in 5 steps](https://docs.api.ai/docs/get-started)
 
 ## 4)Enable Actions on Google
 Follow these instructions
