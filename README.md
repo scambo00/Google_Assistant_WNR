@@ -45,7 +45,7 @@ The behavior of the Assistant when triggered by an Intent.  For example, what sh
 * Set Global Defines - context.global.googleHomeKey="your developer access token";
 * Deploy flow
 
-Details of the "Process Request" function node will be added at sometime in the fucture that I can find the time to write it up.
+Details of the "Process Request" function node will be added at sometime in the future that I can find the time to write it up.
 
 ## 3)Test Integration API.AI=>Node-Red=>API.AI
 We can now test out our new Agent by executing the "update my devices" Intent. 
@@ -60,10 +60,13 @@ The agent responds back with the number of wink devices WNR detected.
 Clicking on the @winkName entity should display all of your wink devices.  The left column is the winkName and the right is synonyms that you can add to.
 <img src='/images/winkNameEntity.jpg'/>
 
-Again Details of the Intents and Enities will be added at sometime in the fucture that I can find the time to write it up.  I would suggest reading [Get started in 5 steps](https://docs.api.ai/docs/get-started)
+Again Details of the Intents and Enities will be added at sometime in the future that I can find the time to write it up.  I would suggest reading [Get started in 5 steps](https://docs.api.ai/docs/get-started)
 
 ## 4)Enable Actions on Google
-Follow these instructions
+* In the API.AI console, select Integrations in the left-hand panel.
+* Enable the toggle switch on the Actions on Google card, as the following example shows:
+<img src='/images/enableActions.png'/>
+
 ### 4.1)Integration
 ### 4.2)Actions on Google
 ### 4.3)Web Simulator
