@@ -48,9 +48,11 @@ The behavior of the Assistant when triggered by an Intent.  For example, what sh
 Details of the "Process Request" function node will be added at sometime in the fucture that I can find the time to write it up.
 
 ## 3)Test Integration API.AI=>Node-Red=>API.AI
-We can now test out our new Agent by executing the "update my devices" Intent.  type the test statement "update devices" into the test console on the right.
+We can now test out our new Agent by executing the "update my devices" Intent. 
 <img src='/images/updateDeviceIntent.jpg'/>
+Click on the "Entities" selection on the left pane and type the test statement "update devices" into the test console on the right.
 <img src='/images/testUpdateDevices.jpg'/>
+The agent responds back with the number of wink devices WNR detected.  Clinking on the @winkDevices entity should display all of your wink devices.  The left column is the winkName and the right is syonyms that you can add to
 
 
 ## 4)Enable Actions on Google
