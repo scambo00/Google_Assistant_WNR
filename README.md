@@ -65,9 +65,14 @@ Again Details of the Intents and Enities will be added at sometime in the future
 ## 4)Enable Actions on Google
 * In the API.AI console, select Integrations in the left-hand panel.
 * Enable the toggle switch on the Actions on Google card, as the following example shows:
-<img src='/images/enableActions.png'/>
+<img src='/images/enableActions.jpg'/>
+After you have enabled Actions on Google, you can configure your Conversation Action to prepare it for previewing 
 
-### 4.1)Integration
+### 4.1)To set your invocation name for testing:
+* In the API.AI console, select Integrations in the left-hand panel.
+* Click the SETTINGS link. The Actions on Google view displays.
+* In the Invocation name for testing field, enter a name for your Conversation Action that you want to use
+
 ### 4.2)Actions on Google
 ### 4.3)Web Simulator
 ### 4.4)Action Package
