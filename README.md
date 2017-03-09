@@ -48,6 +48,8 @@ The behavior of the Assistant when triggered by an Intent.  For example, what sh
 Details of the "Process Request" function node will be added at sometime in the fucture that I can find the time to write it up.
 
 ## 3)Test Integration API.AI=>Node-Red=>API.AI
+We can now test out our new Agent by executing the "update my devices" Intent.  type the test statement "update devices" into the test console on the right.
+<img src='/images/updateDeviceIntent.jpg'/>
 <img src='/images/testUpdateDevices.jpg'/>
 
 
