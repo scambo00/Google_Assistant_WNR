@@ -48,7 +48,7 @@ The behavior of the Assistant when triggered by an Intent.  For example, what sh
 Details of the "Process Request" function node will be added at sometime in the fucture that I can find the time to write it up.
 
 ## 3)Test Integration API.AI=>Node-Red=>API.AI
-<img src='/images/testUpdateDevices.png'/>
+<img src='/images/testUpdateDevices.jpg'/>
 
 ## 4)Enable Actions on Google
 Follow these instructions
