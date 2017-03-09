@@ -52,7 +52,9 @@ We can now test out our new Agent by executing the "update my devices" Intent.
 <img src='/images/updateDeviceIntent.jpg'/>
 Click on the "Entities" selection on the left pane and type the test statement "update devices" into the test console on the right.
 <img src='/images/testUpdateDevices.jpg'/>
-The agent responds back with the number of wink devices WNR detected.  Clicking on the @winkName entity should display all of your wink devices.  The left column is the winkName and the right is synonyms that you can add to.
+The agent responds back with the number of wink devices WNR detected.  Clicking on the @winkName entity should display all of your wink devices.  
+<img src='/images/newDevices.jpg'/>
+The left column is the winkName and the right is synonyms that you can add to.
 <img src='/images/winkNameEntity.jpg'/>
 
 
