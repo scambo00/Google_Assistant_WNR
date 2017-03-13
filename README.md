@@ -20,7 +20,7 @@ When you have input your agent’s settings, choose “Save” next to the agent
 ### 1.3)Import Agent
 Download the following file which is a prepopulated Agent for the wink node-red interface.  This file will be imported as described.
 * [winkNodeRed_0_1.zip](winkNodeRed_0_1.zip)
-<img src='/images/importAgent.png'/>
+<img src='/images/importAgent.jpg'/>
 
 ### 1.4)Finding your Api.ai API keys
 )The API keys we will need are further down on this agent page. Scroll down and you will find the “API keys” section. Copy and paste the “Developer access token” somewhere safe. This will be need to make queries to the Wink Node Red (context.global.googleHomeKey):
