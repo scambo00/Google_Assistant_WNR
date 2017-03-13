@@ -20,10 +20,12 @@ When you have input your agent’s settings, choose “Save” next to the agent
 ### 1.3)Import Agent
 Download the following file which is a prepopulated Agent for the wink node-red interface.  This file will be imported as described.
 * [winkNodeRed_0_1.zip](winkNodeRed_0_1.zip)
+
 <img src='/images/importAgent.jpg'/>
 
 ### 1.4)Finding your Api.ai API keys
-)The API keys we will need are further down on this agent page. Scroll down and you will find the “API keys” section. Copy and paste the “Developer access token” somewhere safe. This will be need to make queries to the Wink Node Red (context.global.googleHomeKey):
+The API keys we will need are further down on this agent page. Scroll down and you will find the “API keys” section. Copy and paste the “Developer access token” somewhere safe. This will be need to make queries to the Wink Node Red (context.global.googleHomeKey):
+
 <img src='/images/agentAPIKeys.png'/>
 
 ### 1.5)Connect your API.AI action to your webhook
@@ -35,6 +37,7 @@ Download the following file which is a prepopulated Agent for the wink node-red 
 * Save the Fulfillment.
 * In any relevant Intent, enable the Fulfillment for the response: open ‘Intents’ window, open the intent that you want to connect, scroll down to ‘Fulfillment’ section, check “Use webhook”.
 * Make sure all domains in the ‘Domains’ window are turned off.
+
 <img src='/images/fulfillment.png'/>
 
 ## 2)Node-Red
@@ -97,7 +100,7 @@ The command line interface will be used to extend your action forever
 * https://developers.google.com/actions/tools/gactions-cli
 
 ### 5.2)Downaload these two file
-* 
+* [action.json](action.json)
 * [command.txt](command.txt)
 
 ### 5.3)Edit action.json
