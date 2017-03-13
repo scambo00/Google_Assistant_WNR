@@ -13,7 +13,7 @@ Once we have signed up, we will be taken straight to the Api.ai interface where 
 On the next screen, we enter in our agent’s details, including:
 * Name: This is just for your own reference to differentiate agents in the api.ai interface. You could call the agent anything you would like, (I chose Wink Node Red).
 * Description: A human readable description so you can remember what the agent’s responsible for. This is optional and might not be needed if your agent’s name is self-explanatory.
-* Language: The language which the agent works in. For this tutorial, we will be choosing English as English.
+* Language: The language which the agent works in. For this tutorial, we will be choosing English.
 
 When you have input your agent’s settings, choose “Save” next to the agent’s name to save everything:
 
