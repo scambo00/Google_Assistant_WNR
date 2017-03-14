@@ -93,6 +93,8 @@ After enabling Actions on Google integration, you can publish a preview of your 
 * If successful, a link to the Google Home Web Simulator appears in the lower right corner:
 
 ### 4.3)Web Simulator
+The web simulator lets you preview actions that you've built in API.AI in an easy-to-use interface with debugging and voice input. It helps you make sure that your Conversation Actions actually sound conversational and let you use the device without having hardware
+
 ### 4.4)Action Package
 ## 5) Extend your Actions preview
 The command line interface will be used to extend your action forever
