@@ -80,6 +80,7 @@ After you have enabled Actions on Google, you can configure your Conversation Ac
 
 ### 4.2)SELECTING A VOICE
 You can select one of several voice options when integrating your agent with Actions on Google. Select a voice that best matches the tone and style of your application. The default voice for the Home is a female voice, so if you want to ensure that your app contrasts with the default voice, you can choose a male voice.
+
 ### 4.3 Previewing your Conversation Action
 After enabling Actions on Google integration, you can publish a preview of your Conversation Action so that you can try it out with the Google Home Web Simulator. This lets you test your agent without having to register it with Google
 * In the API.AI console, select Integrations in the left-hand panel.
@@ -95,7 +96,9 @@ After enabling Actions on Google integration, you can publish a preview of your 
 ### 4.3)Web Simulator
 The [web simulator](https://developers.google.com/actions/tools/web-simulator) lets you preview actions that you've built in API.AI in an easy-to-use interface with debugging and voice input. It helps you make sure that your Conversation Actions actually sound conversational and let you use the device without having hardware
 
-### 4.4)Action Package
+### 4.4)Action Packages
+<img src='/images/actionPackage1.jpg'/>
+<img src='/images/actionPackageNumber.jpg'/>
 
 ## 5) Extend your Actions preview
 The command line interface will be used to extend your action forever
