@@ -108,13 +108,13 @@ The action preview will last only 30 minutes using the web simulator (it can be 
 * Copy the executable inside <my_google_dir> 
 * Initialize gaction, open a terminal and run
 
-  * $ cd <my_project_dir>
-  * $ ./gaction init
+  * $ cd <my_google_dir>
+  * $ gaction init
 
 * gaction creates a file named ‘action.json’ in <my_google_dir>
 * Open a browser developer console (for Chrome: click the three dots in the upper right corner -> More tools -> Developer Tools ).
 * Click the ‘Network’ tab.
-
+<img src='/images/responce.jpg'/>
 
 ### 5.5)Run command from CMD window
 Place the two files and the gactions.exe file into the same directory and from a cmd window and then execute the command.
