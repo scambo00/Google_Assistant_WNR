@@ -107,9 +107,8 @@ The action preview will last only 30 minutes using the web simulator (it can be 
 * https://developers.google.com/actions/tools/gactions-cli
 * Copy the executable inside <my_google_dir> 
 * Initialize gaction, open a terminal and run
-
- * > cd <my_google_dir>
- * > gaction init
+ > cd <my_google_dir>
+ > gaction init
 
 * gaction creates a file named ‘action.json’ in <my_google_dir>
 * Open your API.AI project and open the ‘Integrations’ window
@@ -126,8 +125,7 @@ The action preview will last only 30 minutes using the web simulator (it can be 
 * Save the file
 
 To set your preview to last forever 9999999 minutes (about 20 years), open a terminal and run:
-
- * > cd <my_google_dir>
- * > gactions preview -action_package action.json -preview_mins 9999999 -invocation_name [invocation_name_here]
+ > cd <my_google_dir>
+ > gactions preview -action_package action.json -preview_mins 9999999 -invocation_name [invocation_name_here]
 
 <a href="http://stackoverflow.com/a/41205026/1699586" data-href="http://stackoverflow.com/a/41205026/1699586" class="markup--anchor markup--p-anchor" rel="noopener nofollow" target="_blank">Make google actions development project preview persist longer</a>
