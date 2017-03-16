@@ -100,19 +100,13 @@ The [web simulator](https://developers.google.com/actions/tools/web-simulator) l
 <img src='/images/actionPackage1.jpg'/>
 <img src='/images/actionPackageNumber.jpg'/>
 
-## 5) Extend your Actions preview
-The command line interface will be used to extend your action forever
-### 5.1)Download gactions-cli
+## 5) Extend your Actions preview (forever)
+The action preview will last only 30 minutes using the web simulator (it can be extended up to 24 hours.The command line interface will be used to extend your action forever by setting it as an infinite preview.
+
+* Download Google gactions cli (gaction is a self-updating command line interface that lets you test your actions).
 * https://developers.google.com/actions/tools/gactions-cli
 
-### 5.2)Downaload these two file
-* [action.json](action.json)
-* [command.txt](command.txt)
 
-### 5.3)Edit action.json
-<img src='/images/editAction.png'/>
-### 5.4)Edit coomand.txt
-<img src='/images/editCommand.png'/>
 ### 5.5)Run command from CMD window
 Place the two files and the gactions.exe file into the same directory and from a cmd window and then execute the command.
 This command will send the Action (‘action.json’ file, same as the the API.AI project) to your Google Home and will run it as a preview for 9999999 minutes (about 20 years).
