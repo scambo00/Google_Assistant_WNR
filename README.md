@@ -106,10 +106,10 @@ The action preview will last only 30 minutes using the web simulator (it can be 
 * Download Google gactions cli (gaction is a self-updating command line interface that lets you test your actions).
 * https://developers.google.com/actions/tools/gactions-cli
 * Copy the executable inside <my_google_dir> 
-* Initialize gaction open a terminal and run
+* Initialize gaction, open a terminal and run
 
-  $ cd <my_project_dir>
-  $ ./gaction init
+  * $ cd <my_project_dir>
+  * $ ./gaction init
 
 * gaction creates a file named ‘action.json’ in <my_google_dir>
 * Open a browser developer console (for Chrome: click the three dots in the upper right corner -> More tools -> Developer Tools ).
@@ -121,4 +121,4 @@ Place the two files and the gactions.exe file into the same directory and from a
 This command will send the Action (‘action.json’ file, same as the the API.AI project) to your Google Home and will run it as a preview for 9999999 minutes (about 20 years).
 
 
-
+<a href="http://stackoverflow.com/a/41205026/1699586" data-href="http://stackoverflow.com/a/41205026/1699586" class="markup--anchor markup--p-anchor" rel="noopener nofollow" target="_blank">Make google actions development project preview persist longer</a>
