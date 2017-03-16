@@ -105,6 +105,13 @@ The action preview will last only 30 minutes using the web simulator (it can be 
 
 * Download Google gactions cli (gaction is a self-updating command line interface that lets you test your actions).
 * https://developers.google.com/actions/tools/gactions-cli
+* Copy the executable inside <my_google_dir>
+* Initialize gaction, open a terminal and run:
+$ cd <my_project_dir>
+$ ./gaction init
+* gaction creates a file named ‘action.json’ in <my_google_dir>
+* Open a browser developer console (for Chrome: click the three dots in the upper right corner -> More tools -> Developer Tools ).
+* Click the ‘Network’ tab.
 
 
 ### 5.5)Run command from CMD window
