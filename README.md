@@ -97,10 +97,6 @@ After enabling Actions on Google integration, you can publish a preview of your 
 ### 4.3)Web Simulator
 The [web simulator](https://developers.google.com/actions/tools/web-simulator) lets you preview actions that you've built in API.AI in an easy-to-use interface with debugging and voice input. It helps you make sure that your Conversation Actions actually sound conversational and let you use the device without having hardware
 
-### 4.4)Action Packages
-<img src='/images/actionPackage1.jpg'/>
-<img src='/images/actionPackageNumber.jpg'/>
-
 ## 5) Extend your Actions preview (forever)
 The action preview will last only 30 minutes using the web simulator (it can be extended up to 24 hours.The command line interface will be used to extend your action forever by setting it as an infinite preview.
 
