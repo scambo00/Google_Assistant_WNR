@@ -116,12 +116,12 @@ The action preview will last only 30 minutes using the web simulator (it can be 
 <img src='/images/responce.jpg'/>
 
 * Click the ‘Network’ tab
-* Click “PREVIEW” button.
+* Click “PREVIEW” button in the "Actions on Google" window
 * In the browser developer console inspect the XHR response from "preview"
 * Copy the content of the response and paste it into the file ‘action.json’ inside the <my_google_dir>
 * Save the file
 
-* To set your preview to last forever 9999999 minutes (about 20 years), open a terminal and run
+* To set your preview to last forever 9999999 minutes (19 years from now), open a terminal and run
     * cd <my_google_dir>
     * gactions preview -action_package action.json -preview_mins 9999999 -invocation_name [invocation_name_here]
 
